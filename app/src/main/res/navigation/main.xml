@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuLocation">
+
+    <fragment
+        android:id="@+id/menuLocation"
+        android:name="com.example.gpschecker.LocationFragment"
+        android:label="@string/menu_location"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/menuAdd"
+        android:name="com.example.gpschecker.AddFragment"
+        android:label="@string/menu_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/menuEdit"
+        android:name="com.example.gpschecker.EditFragment"
+        android:label="@string/menu_edit"
+        tools:layout="@layout/fragment_edit" />
+    <fragment
+        android:id="@+id/menuMap"
+        android:name="com.example.gpschecker.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/menuGraph"
+        android:name="com.example.gpschecker.GraphFragment"
+        android:label="@string/menu_graph"
+        tools:layout="@layout/fragment_graph" />
+</navigation>
