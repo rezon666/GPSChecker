@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">GPS Checker</string>
+    <string name="app_name">GPS Companion</string>
     <string name="menu_location">Координаты</string>
     <string name="menu_add">Запись</string>
     <string name="menu_edit">Редактировать</string>
     <string name="menu_map">Карта</string>
     <string name="menu_graph">График</string>
-    <string name="lat">Широта</string>
-    <string name="lon">Долгота</string>
+    <string name="lat">Широта: </string>
+    <string name="lon">Долгота: </string>
+    <string name="title_activity_maps">Map</string>
 </resources>
