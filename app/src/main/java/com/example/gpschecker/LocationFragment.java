@@ -28,11 +28,10 @@ public class LocationFragment extends Fragment {
     public LocationManager lm = null;
     public String lat, lon;
     private TextView tv_lon, tv_lat, tv_acc;
-    public double x1=0,x2=0;
-    public float x3=0;
+    public double x1 = 0, x2 = 0;
+    public float x3 = 0;
 
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-    {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_location, container, false);
         touchListener(v);
 
@@ -83,7 +82,7 @@ public class LocationFragment extends Fragment {
         view.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                if (event.getActionMasked() == MotionEvent.ACTION_DOWN){
+                if (event.getActionMasked() == MotionEvent.ACTION_DOWN) {
                     double x = x1;
                     double y = x2;
 
